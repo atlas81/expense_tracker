@@ -48,6 +48,3 @@ def update_expense(id, amount, description):
         expenses[id] = [expenses[id][0], amount, description]
     else:
         print("Expense ID not found.")
-                        
-for i in range(5):
-    add_expense(float(input("Expense amount (decimal):\n" )), input("Expense description: "))
